@@ -3,4 +3,8 @@ variable "x" {
   default=100
 }
 # declare a variable without value
-variable "y" {}
+#variable "y" {}
+
+output "x" {
+  value = var.x
+}
