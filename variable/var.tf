@@ -9,8 +9,7 @@ output "x" {
   value = var.x
 }
  # list
-variable "y_list"
-{
+variable "y_list" {
   default=[1,2,3]
 }
 
@@ -18,8 +17,7 @@ output "y" {
   value =var.y_list
 }
 
-variable "z_map"
-{
+variable "z_map" {
   default=
   {
     x=10,
