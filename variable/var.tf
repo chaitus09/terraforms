@@ -40,3 +40,11 @@ output "z_x"{
 
 }
 
+# we can declare empty variables,but data can be sent from a file ,those files are called tfvars
+ variable "env" {}
+output "env"{
+  value=var.env
+}
+
+
+
