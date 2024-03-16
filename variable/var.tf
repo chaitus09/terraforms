@@ -18,8 +18,7 @@ output "y" {
 }
 
 variable "z_map" {
-  default=
-  {
+  default={
     x=10,
     y=20
   }
