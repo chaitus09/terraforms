@@ -27,3 +27,16 @@ variable "z_map" {
 output "z" {
   value =var.z_map
 }
+
+output "y_1"
+{
+  value=var.y_list[1]
+
+}
+
+output "z_x"
+{
+  value=var.z_map["x"]
+
+}
+
