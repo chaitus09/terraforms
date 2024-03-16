@@ -46,5 +46,14 @@ output "env"{
   value=var.env
 }
 
+# common variable
+variable "common"{
+
+
+}
+
+output "common"{
+  value=var.common
+}
 
 
