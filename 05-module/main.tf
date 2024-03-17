@@ -1,7 +1,7 @@
 module "demo" {
-  source="./demo"
+  source="demo1"
 }
 
 module "demo"{
-  source="./demo"
+  source="demo1"
 }
